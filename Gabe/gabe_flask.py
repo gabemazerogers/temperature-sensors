@@ -2,6 +2,11 @@ from flask import Flask
 from flask import render_template
 import csv
 
+with open('readings.csv') as csv_file:
+	data = csv_file.readlines()
+csv_data = csv.DictReader(data)
+print data
+
 
 app = Flask(__name__)
 
