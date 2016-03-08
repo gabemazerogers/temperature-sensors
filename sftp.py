@@ -1,4 +1,7 @@
 import pysftp, re
+
+"""sftp.py: Opens a connection with ieng6 (or whatever server) and reads the output of the temper poll command and locates the farenheit temperature using regex"""
+
 serverName = 'ieng6.ucsd.edu'
 username = "" # REPLACE WITH YOURS
 password = "" # REPLACE WITH YOURS
