@@ -1,0 +1,2 @@
+Found 1 devices
+Device #0: 22.5°C 72.5°F
