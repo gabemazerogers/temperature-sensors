@@ -10,8 +10,9 @@ with pysftp.Connection(serverName,username=username,password=password, port=22) 
 	sftp.get(filePath, '')
 
 tempFile = open(filePath, 'r')
-lines = tempFile.readlines()
-lines = ''.join(lines)
-print lines
-temp_f = re.findall('\d+\.?\d*', lines)
-print temp_f[3]
+
+lines = tempFile.readlines() # initialized as list
+temp_f = re.findall('\d+\.?\d*', lines[1])
+print temp_f[2]
+fullDate = dateutil.parser.parse(lines[2])
+print fullDate
