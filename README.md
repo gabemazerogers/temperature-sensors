@@ -11,6 +11,6 @@ https://github.com/padelt/temper-python
 http://www.amazon.com/Ebest-Thermometer-Temperature-Record-Laptop/dp/B009YRP906?ie=UTF8&psc=1
 
 
-_Notes_
+*Notes*
 Run the command every 5 minutes
 Push/wipe every 30 minutes
