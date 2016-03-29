@@ -17,3 +17,5 @@ Push/wipe every 30 minutes
 
 # Possible Sensor Case Ideas 
 http://forum.mysensors.org/topic/244/diy-case-idea/2
+
+http://www.beals5.com/wx/shield.htm 
