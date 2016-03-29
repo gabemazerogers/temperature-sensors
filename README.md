@@ -14,3 +14,8 @@ http://www.amazon.com/Ebest-Thermometer-Temperature-Record-Laptop/dp/B009YRP906?
 *Notes*
 Run the command every 5 minutes
 Push/wipe every 30 minutes
+
+# Possible Sensor Case Ideas 
+http://forum.mysensors.org/topic/244/diy-case-idea/2
+
+http://www.beals5.com/wx/shield.htm 
