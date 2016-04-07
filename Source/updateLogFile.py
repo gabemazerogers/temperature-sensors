@@ -28,5 +28,5 @@ fullDate = dateutil.parser.parse(lines[2])
 # fullDate = formatted date
 
 logFile = open('formattedData.csv', 'w')
-logFile.write("Date,Temp,Place\n)
-logFile.write(str(fullDate) + ", " + str(temp_f[2]) + ", " + location)
+logFile.write("Date,Temp,Place\n")
+logFile.write(str(fullDate) + "," + str(temp_f[2]) + "," + location)
