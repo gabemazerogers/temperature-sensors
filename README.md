@@ -18,4 +18,6 @@ Push/wipe every 30 minutes
 # Possible Sensor Case Ideas 
 http://forum.mysensors.org/topic/244/diy-case-idea/2
 
-http://www.beals5.com/wx/shield.htm 
+http://www.beals5.com/wx/shield.htm
+
+https://blog.adafruit.com/2014/06/20/how-to-build-a-solar-powered-raspberry-pi-piday-raspberrypi-raspberry_pi/
