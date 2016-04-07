@@ -6,7 +6,7 @@
 # to rawData.txt where we then parse appropriate values and create/append a .csv
 
 
-import os, re, dateutil.parser
+import os, re, dateutil.parser, os.path
 
 location = "ERC"
 
@@ -25,7 +25,10 @@ temp_f = re.findall('\d+\.?\d*', lines[1])
 # temp_f[2] = fahrenheit value
 
 fullDate = dateutil.parser.parse(lines[2])
-# fullDate = formatted date
+# fullDate = formatted dar+
 
+exists = (os.path.isfile('formattedData.csv'))
 logFile = open('formattedData.csv', 'w')
+if(exists is False):
+    logFile.write("Date,Temp,Place\n")
 logFile.write(str(fullDate) + ", " + str(temp_f[2]) + ", " + location)
