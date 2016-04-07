@@ -32,3 +32,4 @@ logFile = open('formattedData.csv', 'w')
 if(exists is False):
     logFile.write("Date,Temp,Place\n")
 logFile.write(str(fullDate) + ", " + str(temp_f[2]) + ", " + location)
+
