@@ -23,3 +23,7 @@ http://www.beals5.com/wx/shield.htm
 https://blog.adafruit.com/2014/06/20/how-to-build-a-solar-powered-raspberry-pi-piday-raspberrypi-raspberry_pi/
 
 http://www.instructables.com/id/Shelter-from-the-Storm-Remote-Thermometer-Housing/
+
+# Restful API
+
+http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/ 
