@@ -30,4 +30,14 @@ http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/
 
 Added API - See this link for usage http://loopback.io/getting-started/
 
-cd into ReadingsAPI folder, run command "node ." 
+cd into ReadingsAPI folder, run command "node ."
+
+When the API is running run the following command in the terminal: curl -X PUT --header "Content-Type: application/json" --header "Accept: application/json" -d "{
+  \"Location\": \"ERC\",
+  \"Temperature\": 75,
+  \"ReadingDate\": \"2016-05-23\",
+  \"ReadingTime\": \"12:35\",
+  \"id\": 0
+}" "http://0.0.0.0:3000/api/Readings"
+
+and replace the values with the appropriate data
