@@ -27,3 +27,7 @@ http://www.instructables.com/id/Shelter-from-the-Storm-Remote-Thermometer-Housin
 # Restful API
 
 http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/ 
+
+Added API - See this link for usage http://loopback.io/getting-started/
+
+cd into ReadingsAPI folder, run command "node ." 
