@@ -1,0 +1,3 @@
+Found 1 devices
+Device #0: 22.5°C 72.5°F
+Mon May 23 19:26:22 PDT 2016
